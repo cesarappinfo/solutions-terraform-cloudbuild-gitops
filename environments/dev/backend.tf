@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "gs://vct-kpi-enologia-tfstate"
     prefix = "env/dev"
   }
 }
