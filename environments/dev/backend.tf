@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "gs://vct-kpi-enologia-tfstate"
+    bucket = "vct-kpi-enologia-tfstate"
     prefix = "env/dev"
   }
 }
